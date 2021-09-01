@@ -9,8 +9,7 @@ namespace TicTacToe
             string computerChoose;
             Console.WriteLine("Plaese enter Your Letter(X/O) : ");
             string userChoose = Console.ReadLine();
-            while (true)
-            {
+         
                 if (userChoose == "X" || userChoose == "x")
                 {
                     computerChoose = "O";
@@ -23,7 +22,7 @@ namespace TicTacToe
                 }
                 else
                     Console.WriteLine("Wrong input,Please type again");
-            }
+            
         }
         static void CreateEmptyBoard()
         {
